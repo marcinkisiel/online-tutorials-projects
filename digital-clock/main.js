@@ -7,13 +7,17 @@ function clock() {
 	let currentMinutes = new Date().getMinutes();
 	let currentSeconds = new Date().getSeconds();
 
-	hours.innerHTML = currentHours;
-	minutes.innerHTML = currentMinutes;
-	if (currentSeconds < 10) {
-		seconds.innerHTML = `0${currentSeconds}`;
-	} else {
-		seconds.innerHTML = currentSeconds;
+	function changeTime(currentTime, timeSelector) {
+		if (currentTime < 10) {
+			timeSelector.innerHTML = `0${currentTime}`;
+		} else {
+			timeSelector.innerHTML = currentTime;
+		}
 	}
+
+	changeTime(currentHours, hours);
+	changeTime(currentMinutes, minutes);
+	changeTime(currentSeconds, seconds);
 }
 
 let interval = setInterval(clock, 1000);
