@@ -1,0 +1,62 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.parallax {
+	&__content {
+		font-family: consolas;
+		padding: 100px;
+
+		& h2 {
+			font-size: 4em;
+		}
+
+		& p {
+			font-size: 1.2em;
+		}
+	}
+
+	&__layer-1 {
+		left: 40%;
+		position: absolute;
+		transform: translateX(-50%);
+		width: 100%;
+		z-index: 10;
+	}
+
+	&__layer-2 {
+		position: absolute;
+		right: 0;
+		width: 100%;
+		z-index: 9;
+	}
+
+	&__text-layer {
+		position: absolute;
+		right: 0;
+		transform: translateY(50%);
+		width: 100%;
+	}
+
+	&__zoom {
+		background: url(img/bg.jpg);
+		background-size: cover;
+		height: 1000px;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+
+		&::before {
+			background: linear-gradient(transparent, #fff);
+			bottom: 0;
+			content: '';
+			height: 200px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			z-index: 1000;
+		}
+	}
+}
