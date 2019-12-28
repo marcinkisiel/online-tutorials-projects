@@ -18,6 +18,7 @@ body {
 		position: relative;
 		margin: 0 5px;
 		-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+
 		&:nth-last-child(2) span {
 			background-color: #ff006a;
 		}
@@ -36,6 +37,17 @@ body {
 		position: relative;
 		width: 100px;
 		z-index: 10;
+
+		&--am {
+			background-color: #fff;
+			bottom: 0;
+			color: #000;
+			font-size: 1.5em;
+			height: 40px;
+			position: absolute;
+			width: 60px;
+			-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+		}
 	}
 
 	&__box-text {

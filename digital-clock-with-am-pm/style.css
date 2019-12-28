@@ -38,6 +38,17 @@ body {
   z-index: 10;
 }
 
+.clock__box-caption--am {
+  background-color: #fff;
+  bottom: 0;
+  color: #000;
+  font-size: 1.5em;
+  height: 40px;
+  position: absolute;
+  width: 60px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+
 .clock__box-text {
   background-color: #127fd6;
   box-shadow: none;
