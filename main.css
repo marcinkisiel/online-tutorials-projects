@@ -10,9 +10,13 @@ body {
 }
 
 .index__link {
-	color: #777;
+	color: #666;
 	text-decoration: none;
 	transition: color 0.1s;
+}
+
+.index__link:visited {
+	color: #aaa;
 }
 
 .index__link:hover {
