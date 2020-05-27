@@ -4,7 +4,7 @@
 
 ### live demo
 
-[Intro component with sign-up form Live Demo](https://marcinkisiel.github.io/online-tutorials-projects/)
+[Online Tutorials projects](https://marcinkisiel.github.io/online-tutorials-projects/)
 
 ### opis
 
