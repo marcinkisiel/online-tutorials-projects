@@ -9,7 +9,8 @@
 ### opis
 
 W ramach tego repo odtwarzam ciekawe rozwiązania prezentowane w krótkich tutorialach na kanale YouTube o nazwie **_[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)_**, na którym jego autor, indyjski developer **Muhammad Irshad**, dzieli się kreatywnymi pomysłami na komponenty frontendowe.<br/>
-Ten kod oczywiście nie jest mojego autorstwa, ale traktuję to jako baza snippetów stanowiących podstawę do wykorzystania we własnych projektach, tym bardziej, że staram się kodować je jako niezależne komponenty wg konwencji **BEM**.
+Ten kod oczywiście nie jest mojego autorstwa, ale traktuję to jako baza snippetów stanowiących podstawę do wykorzystania we własnych projektach, tym bardziej, że staram się kodować je jako niezależne komponenty wg konwencji **BEM**.<br/>
+Warto odnotować, że większość przykładów została przygotowana dla desktopowych szerokości ekranu i ich praktyczne wykorzystanie wymaga korekt pod kątem widoków mobilnych.
 
 ### stan projektu
 
