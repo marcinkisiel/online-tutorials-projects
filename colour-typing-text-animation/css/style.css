@@ -1,0 +1,17 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
+
+html { box-sizing: border-box; }
+
+body { background-color: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
+
+.title { position: relative; text-transform: uppercase; font-family: consolas; letter-spacing: 0.1em; font-size: 7em; }
+
+.title::before, .title::after { content: 'Colour Type'; position: absolute; top: 0; left: 0; border-right: 1px solid #fff; white-space: nowrap; overflow: hidden; background: linear-gradient(to right, #f00, #0f0, #0ff, #0f0, #ffc800); -webkit-background-clip: text; background-clip: text; color: transparent; animation: typing 5s steps(11) infinite; }
+
+.title::before { filter: blur(1px); }
+
+.title::after { filter: blur(60px); }
+
+@keyframes typing { 0% { width: 0; }
+  70% { width: 100%; }
+  100% { width: 100%; } }
