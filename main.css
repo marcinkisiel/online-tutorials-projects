@@ -22,3 +22,7 @@ body {
 .index__link:hover {
 	color: #000;
 }
+
+.index__annotation {
+	font-size: 14px;
+}

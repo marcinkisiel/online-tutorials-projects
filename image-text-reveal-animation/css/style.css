@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
+
+html { box-sizing: border-box; }
+
+body { display: flex; justify-content: center; align-items: center; height: 100vh; font-family: 'Poppins', sans-serif; }
+
+.reveal { position: relative; }
+
+.reveal__box { width: 600px; height: 400px; transform: scaleX(0); transform-origin: left; animation: reveal 1s ease-in-out forwards; }
+
+.reveal__box::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; z-index: 1; transform-origin: right; animation: reveal 1s ease-in-out reverse forwards; animation-delay: 3s; }
+
+.reveal__image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+
+.reveal__text { position: absolute; right: -80px; bottom: 40px; padding: 10px; background-color: #fff; z-index: 2; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); transform: scaleX(0); transform-origin: left; animation: reveal 1s ease-in-out forwards; animation-delay: 1s; transition: bottom 0.5s; }
+
+.reveal__text::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; z-index: 1; transform-origin: right; animation: reveal 1s ease-in-out reverse forwards; animation-delay: 2s; }
+
+@keyframes reveal { 0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); } }
