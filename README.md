@@ -6,33 +6,33 @@
 
 [Online Tutorials projects](https://marcinkisiel.github.io/online-tutorials-projects/)
 
-### opis
+### description
 
-W ramach tego repo odtwarzam ciekawe rozwiązania prezentowane w krótkich tutorialach na kanale YouTube o nazwie **_[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)_**, na którym jego autor, indyjski developer **Muhammad Irshad**, dzieli się kreatywnymi pomysłami na komponenty frontendowe.<br/>
-Ten kod oczywiście nie jest mojego autorstwa, ale traktuję to jako baza snippetów stanowiących podstawę do wykorzystania we własnych projektach, tym bardziej, że staram się kodować je jako niezależne komponenty wg konwencji **BEM**.<br/>
-Warto odnotować, że większość przykładów została przygotowana dla desktopowych szerokości ekranu i ich praktyczne wykorzystanie wymaga korekt pod kątem widoków mobilnych.
+In this repo I'm coding interesting frontend ideas from the YouTube channel called **_[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)_** by Indian developer **Muhammad Irshad**. <br/>
+Obviously this code is not mine, but I treat this repo as a base of snippets for my own projects, especially since I try to code them as independent components according to the **BEM** convention. <br/>
+Most of the examples were prepared for desktop view and their practical use requires adjustments for mobile devices.
 
-### stan projektu
+### current status
 
-nieukończony
+unfinished
 
-### czas realizacji projektu
+### implementation time
 
-grudzień 2019 - nadal
+December 2019 - till now
 
-### technologie
+### technologies
 
 HTML, CSS, JavaScript
 
-### użyte narzędzia
+### tools used
 
 Sass (SCSS)
 
-### projekt graficzny
+### design
 
 Muhammad Irshad
 
-### kontakt
+### contact
 
 **Marcin Kisiel**:
 <br/>
